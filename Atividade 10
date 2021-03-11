@@ -1,0 +1,42 @@
+programa
+{
+	/*10. Supondo que a população de um país A seja da
+ordem de 80000 habitantes com uma taxa
+anual de crescimento de 3% e que a população
+de B seja 200000 habitantes com uma taxa de
+crescimento de 1.5%.
+Faça um programa que calcule e escreva o número de anos necessários para que a
+população do país A ultrapasse ou iguale a população do país B, mantidas as taxas
+de crescimento.*/
+
+	funcao inicio()
+	{
+		inteiro cityA = 80000
+		inteiro cityB = 200000
+		inteiro years = 0
+		inteiro porA = 1
+		inteiro porB = 0
+		
+		
+		porA = cityA *  3 / 100
+		porB = cityB * 1.5 / 100
+
+		enquanto(cityA <= cityB){
+
+			porA = cityA *  3 / 100
+		     porB = cityB * 1.5 / 100
+
+			cityA = cityA + porA
+
+			cityB = cityB + porB
+
+			
+
+			years++
+		}
+
+		escreva("Para  a cidade A passar ou igualadar a cidade B em número de habitantes, levara ", years, " anos.")
+
+		
+	}
+}
