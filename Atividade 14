@@ -1,0 +1,85 @@
+programa
+{
+	/*14. Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número
+inteiro entre 1 a 10. O usuário deve informar de qual numero ele deseja ver a tabuada.*/
+
+	funcao inicio()
+	{
+		inteiro tabuada = 0
+		inteiro somador = 0
+		
+
+		escreva("De qual número voce quer saber a tabuada? ")
+		leia(tabuada)
+
+		somador = tabuada
+
+		escreva(tabuada, " x 1 = ", tabuada, "\n")
+		tabuada = tabuada + somador
+		escreva(tabuada, " x 2 = ", tabuada, "\n")
+		tabuada = tabuada + somador
+		escreva(tabuada, " x 3 = ", tabuada, "\n")
+		tabuada = tabuada + somador
+		escreva(tabuada, " x 4 = ", tabuada, "\n")
+		tabuada = tabuada + somador
+		escreva(tabuada, " x 5 = ", tabuada, "\n")
+		tabuada = tabuada + somador
+		escreva(tabuada, " x 6 = ", tabuada, "\n")
+		tabuada = tabuada + somador
+		escreva(tabuada, " x 7 = ", tabuada, "\n")
+		tabuada = tabuada + somador
+		escreva(tabuada, " x 8 = ", tabuada, "\n")
+		tabuada = tabuada + somador
+		escreva(tabuada, " x 9 = ", tabuada, "\n")
+		tabuada = tabuada + somador
+		escreva(tabuada, " x 10 = ", tabuada, "\n")
+		tabuada = tabuada + somador
+
+
+		escreva("-------------------------------")
+
+		
+
+	}
+}
+
+/* Esse modelo foi o primeiro que consegui de fazer, foi o mais facil a principio, pois é apenas um " amontoado de control c + v ", porém acho em progamas mais complexos ele deve ser inviável, segue a baixo os 
+ *  meus fails tentando fazer com o enquanto e o para
+ *  inteiro tabuada = 0
+		inteiro somador = 10
+		inteiro xis = 1
+
+		escreva("De qual número voce quer saber a tabuada? ")
+		leia(tabuada)
+
+		para(tabuada ; tabuada <= tabuada * somador ; tabuada = tabuada + tabuada){
+
+			escreva(xis, "x", tabuada, "\n")
+
+			xis++
+		}
+
+
+	-----------------
+
+	inteiro tabuada = 0
+		inteiro somador = 10
+		inteiro salva = 0
+		inteiro xis = 1
+
+		escreva("De qual número voce quer saber a tabuada? ")
+		leia(tabuada)
+
+		salva = tabuada * somador 
+
+		enquanto( tabuada < salva){
+
+			escreva( tabuada, "x", xis, "\n")
+
+			tabuada = tabuada + tabuada
+
+			xis++
+	
+		}
+
+ */
