@@ -1,0 +1,62 @@
+programa
+{
+	/*11. Altere o programa anterior permitindo ao usuário informar as populações e as taxas
+de crescimento iniciais. Valide a entrada e permita repetir a operação.*/
+     inclua biblioteca Util 
+	funcao inicio()
+	{
+		inteiro cityA = 0
+		inteiro cityB = 0
+		inteiro years = 0
+		inteiro porA = 1
+		inteiro porB = 0
+		inteiro taxaA = 0
+		inteiro taxaB = 0
+
+		cadeia repitir = ""
+
+		
+          enquanto( repitir != "não" ){
+		escreva("Qual a quantidade de habitantes da cidade A ?")
+		leia(cityA)
+
+		escreva("Qual a quantidade de habitantes da cidade B ?")
+		leia(cityB)
+
+		escreva("Qual vai ser a taxa de crescimento da cidade A ?")
+		leia(taxaA)
+
+		escreva("Qual vai ser a taxa de crescimento da cidade B ?")
+		leia(taxaB)
+
+				
+		porA = cityA *  taxaA / 100
+		porB = cityB * taxaB / 100
+
+		enquanto(cityA <= cityB){
+
+			porA = cityA *  3 / 100
+		     porB = cityB * 1.5 / 100
+
+			cityA = cityA + porA
+
+			cityB = cityB + porB
+
+			
+
+			years++
+		}
+
+		escreva("Para  a cidade A passar ou igualadar a cidade B em número de habitantes, levara ", years, " anos.")
+
+		Util.aguarde(3000)
+		
+		limpa()
+		
+		escreva("Voce quer repetir a operação, sim ou não ? ")
+		leia(repitir)
+		
+          }
+
+	}
+}
