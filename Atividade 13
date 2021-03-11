@@ -1,0 +1,38 @@
+programa
+{
+	/*13. Faça um programa que leia 5 números e informe a soma e a média dos números.*/
+	
+	funcao inicio()
+	{
+		inteiro one = 0
+		inteiro two = 0
+		inteiro three = 0
+		inteiro four = 0
+		inteiro five = 0
+		inteiro soma = 0
+		inteiro media = 0
+
+		escreva("digite um número", "\n")
+		leia(one)
+
+		escreva("digite um número", "\n")
+		leia(two)
+
+		escreva("digite um número", "\n")
+		leia(three)
+
+		escreva("digite um número", "\n")
+		leia(four)
+
+		escreva("digite um número", "\n")
+		leia(five)
+
+		soma = one + two + three + four + five
+
+		media = soma / 5
+
+		escreva("A soma dos cincos números é : ", soma, "\n")
+
+		escreva("A média dos cincos números é : ", media, "\n")
+	}
+}
