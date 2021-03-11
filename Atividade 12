@@ -1,0 +1,55 @@
+programa
+{
+	/*12. Faça um programa que leia 5 números e informe o maior número.*/
+	
+	funcao inicio()
+	{
+		inteiro one = 0
+		inteiro two = 0
+		inteiro three = 0
+		inteiro four = 0
+		inteiro five = 0
+
+		escreva("digite um número", "\n")
+		leia(one)
+
+		escreva("digite um número", "\n")
+		leia(two)
+
+		escreva("digite um número", "\n")
+		leia(three)
+
+		escreva("digite um número", "\n")
+		leia(four)
+
+		escreva("digite um número", "\n")
+		leia(five)
+
+		se(one > two e one > three e one > four e one > five){
+			escreva("\n", "O primeiro número dito é maior")
+			escreva("\n", one)
+		}
+
+		se(two > one e two > three e two > four e two > five){
+			escreva("\n", "O segundo número dito é maior")
+			escreva("\n", two)
+		}
+
+		se(three > one e three > two e three > four e three > five){
+			escreva("\n", "O terceiro número dito é maior")
+			escreva("\n", three)
+		}
+
+		se(four > one e four > two e four > three e four > five){
+			escreva("\n", "O quarto número dito é maior")
+			escreva("\n", four)
+		}
+
+		se(five > one e five > two e five > three e five > four){
+			escreva("\n", "O quinto número dito é maior")
+			escreva("\n", five)
+		}
+
+			
+	}
+}
