@@ -1,0 +1,32 @@
+programa
+{
+	/*7. Faça um programa que peça ao usuário uma nota, entre zero e dez. Mostre uma
+mensagem caso o valor seja inválido e continue pedindo até que o usuário informe
+um valor válido.*/
+
+	funcao inicio()
+	{
+		inteiro nota
+
+		escreva("Digite uma nota, de 0(zero) á 10(dez) : ")
+		leia(nota)
+
+		enquanto(nota < 0){
+
+			escreva("valor inválido")
+			escreva("\n", "insira um valor válido  :  ", "\n")
+			leia(nota)
+		}
+
+		enquanto(nota > 10){
+			escreva("valor inválido")
+			escreva("\n", "insira um valor válido  :  ", "\n")
+			leia(nota)
+		
+		}
+
+		escreva("valor válido")
+
+		
+	}
+}
