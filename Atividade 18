@@ -1,0 +1,40 @@
+programa
+{
+	/*
+18. Faça um programa que calcule o fatorial de
+um número inteiro fornecido pelo usuário.
+Ex.: 5!=5.4.3.2.1=120
+	 */
+	 
+	funcao inicio()
+	{
+		inteiro number 
+		inteiro i 
+		inteiro two 
+		
+		escreva("qual o número que vai ser calculado o fatorial ? ")
+		leia(number) 
+
+		i = number
+
+		para(i = number-1 ; i > 0 ; i--){
+			
+		number = number * i
+		    
+		escreva(i)
+		    
+		se(i <= 1){
+					    	
+		escreva("=")
+		
+		}
+		
+		senao		    
+		escreva("x")
+		
+		}
+		
+		escreva(number)
+		
+	}
+}
