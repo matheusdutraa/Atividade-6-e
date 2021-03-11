@@ -1,0 +1,31 @@
+programa
+{
+	/*15. Faça um programa que peça dois números, base e expoente, calcule e mostre o
+primeiro número elevado ao segundo número. Não utilize a função de potência da
+linguagem.*/
+
+	funcao inicio()
+	{
+		inteiro one = 0
+		inteiro two = 0
+		inteiro result = 0
+		
+
+		escreva(" Digite o primeiro número : ")
+		leia(one)
+
+		escreva(" Digite o segundo número : ")
+		leia(two)
+
+		enquanto(two != 0){
+
+			result = one * one
+
+			two--
+		}
+
+		
+
+		escreva("\n\n O primeiro número elevado ao segundo número digitado é igual a : ", result)
+	}
+}
