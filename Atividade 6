@@ -1,0 +1,26 @@
+programa
+{
+	/*6. Faça um programa que receba dois números inteiros e gere os números inteiros que
+estão no intervalo compreendido por eles.*/
+	funcao inicio()
+	{
+		inteiro vrem 
+		inteiro vram 
+
+		escreva("Qual o valor do primeiro número ? ")
+		leia(vrem)
+
+		escreva("\n", "Qual o valor do segundo número ?")
+		leia(vram)
+
+		enquanto(vrem < vram){
+			escreva(vrem++, "\n")
+		}
+
+		enquanto(vram < vrem){
+
+			escreva(vram++, "\n")
+		}
+	
+	}
+}
