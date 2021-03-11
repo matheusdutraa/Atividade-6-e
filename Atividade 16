@@ -1,0 +1,28 @@
+programa
+{
+	/*16. Faça um programa que peça 10 números inteiros, calcule e mostre a quantidade de
+números pares e a quantidade de números impares.*/
+
+	funcao inicio()
+	{
+		inteiro i = 0
+		inteiro par
+		inteiro impar
+		inteiro numero[10]
+		        
+		para(i = 0; i < 10 ; i++) {
+		    leia(numero[i])
+		}
+		par = 0
+		impar = 0
+		para(i = 0; i < 10; i++) {
+		    se(numero[i] % 2 == 0){
+		        par++
+		    }senao
+		    impar++
+		}
+		escreva("número de pares: ", par, "\nnúmero de ímpares: ", impar)
+
+	}
+}
+/*nessa eu tive dificuldade, ai pedi ajuda para um colega */
