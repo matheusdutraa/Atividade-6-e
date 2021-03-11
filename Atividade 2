@@ -1,0 +1,15 @@
+programa
+{
+	/*Faça um programa que imprima na tela os números de 20 a 1, um abaixo do outro.*/
+	funcao inicio()
+	{
+
+		inteiro number = 20
+
+		para( number ;  number >= 1 ; number--){
+
+			escreva( "\n", number)
+			
+			}
+		}
+}
