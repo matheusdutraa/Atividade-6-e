@@ -1,0 +1,45 @@
+programa
+{
+	/* 17
+a. Faça um programa que gere a série até que o valor seja maior que 500.
+b. Faça um programa capaz de gerar a série até o n−ésimo termo.
+	 */
+	inclua biblioteca Util 
+	funcao inicio()
+	{
+		inteiro one = 0
+		inteiro two = 1
+		inteiro i
+		
+		para(i = 0 ; i <= 660 ; i=one + two ){
+
+		escreva(i, "\n")
+
+		one = two
+		two = i
+		
+		}
+
+		Util.aguarde(5000)
+		limpa()
+
+
+		inteiro ones = 0
+		inteiro twos = 1
+		inteiro is
+		inteiro three
+
+		escreva("voce quer que o progama gere até qual série o termo ? ")
+		leia(three)
+		
+		para(is = 0 ; is <= three ; is = ones + twos ){
+
+		escreva(is, "\n")
+
+		ones = twos
+		twos = is
+		
+		}
+			
+	}
+}
